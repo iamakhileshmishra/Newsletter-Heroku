@@ -12,7 +12,6 @@ app.post("/", function(req, res) {
     const firstName = req.body.f_name;
     const lastName = req.body.l_name;
     const e_mail = req.body.email;
-    // console.log(firstName, lastName, e_mail);
     const data = {
         members: [{
             email_address: e_mail,
@@ -53,5 +52,4 @@ app.listen(process.env.PORT || 3000, function() {
 
 //API KEY -  MailChhimp
 // f2a163feee7fbf635c590613c2483c4e-us14
-
 // ID -  a6c647850f
